@@ -12,3 +12,14 @@ To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 
 ========================================================================
+
+Pour merger une branch de dev dans la branch pricinpale (main)
+
+se mettre sur main
+git checkout main
+(git branch pour checker)
+
+git merge my-new-branch
+
+========================================================================
+
