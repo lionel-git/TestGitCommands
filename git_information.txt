@@ -1,0 +1,5 @@
+Controls:
+
+ git log -n 5
+ git status
+ 
