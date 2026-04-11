@@ -23,3 +23,11 @@ git merge my-new-branch
 
 ========================================================================
 
+Pour rebase une branche, c'est dans l'autre sens
+
+se mettre sur la branch de dev
+git checkout my-dev-branch
+git rebase main
+
+========================================================================
+
