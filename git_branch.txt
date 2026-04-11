@@ -1,1 +1,14 @@
 git checkout -b my-new-branch
+
+===========================================================================
+push sur branch sans remote:
+PS G:\my_projects\TestGitCommands> git push
+fatal: The current branch my-new-branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin my-new-branch
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+========================================================================
