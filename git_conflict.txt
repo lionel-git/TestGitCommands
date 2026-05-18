@@ -1,0 +1,19 @@
+Cf:
+
+https://nitaym.github.io/ourstheirs/
+
+==== REBASE ================
+Pour faire un REBASE en choissant mes diffs:
+Sur chaque fichier en conflict:
+
+git checkout --theirs <conflict file>
+============================
+
+
+
+==== MERGE ================
+Pour faire un MERGE en choissant mes diffs:
+Sur chaque fichier en conflict:
+
+git checkout --ours <conflict file>
+============================

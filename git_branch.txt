@@ -21,6 +21,9 @@ git checkout main
 
 git merge my-new-branch
 
+En cas de conflit: pour utiliser mes diffs:
+git checkout --ours <conflict file>
+
 ========================================================================
 
 Pour rebase une branche, c'est dans l'autre sens
@@ -28,6 +31,9 @@ Pour rebase une branche, c'est dans l'autre sens
 se mettre sur la branch de dev
 git checkout my-dev-branch
 git rebase main
+
+En cas de conflit: pour utiliser mes diffs:
+git checkout --theirs <conflict file>
 
 ========================================================================
 
